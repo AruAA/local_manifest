@@ -10,15 +10,23 @@
   <remote name="derp"
           fetch="https://github.com/DerpFest-11"
           revision="refs/heads/11" />
+	
+  <remote name="ayan" 
+	  fetch="https://github.com/ayanm09" />
+  
+  <remote name="yogi" 
+	  fetch="https://github.com/yograjsingh-cmd" />
 
+    	<project path="device/asus/Z01R" name="device_asus_Z01R" remote="yogi" revision="404" />
+    	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="lineage-18.1" />
+    	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="ayan" revision="eleven" />
+	
   <remove-project name="hardware/qcom-caf/sdm845/audio" />
   <remove-project name="hardware/qcom-caf/sdm845/display" />
   <remove-project name="hardware/qcom/audio" />
   <remove-project name="hardware/qcom/bt" />
   <remove-project name="hardware/qcom/display" />
   <remove-project name="hardware/qcom/media" />
-  <remove-project name="" />
-  <remove-project name="" />
 
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-18.1-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-18.1-caf-sdm845" />
