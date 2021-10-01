@@ -10,5 +10,5 @@
     	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kernel" revision="eleven" />
         
         <remove-project name="TheXPerienceProject/android_system_sepolicy" />
-        <project path="system/sepolicy" name="system_sepolicy" remote="derp" revision="11" />
+        <project path="system/sepolicy" name="android_system_sepolicy" remote="los" revision="lineage-18.1" />
 </manifest>
