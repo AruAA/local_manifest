@@ -28,6 +28,8 @@
         <remove-project name="platform/hardware/qcom/bootctrl" />
         <!--remove-project name="platform/hardware/qcom/media" />
         <remove-project name="platform/hardware/qcom/display" /-->
+        <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+        <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
         <!-- CAF Blobs -->
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="los" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-sdm845" />
