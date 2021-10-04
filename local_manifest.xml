@@ -10,10 +10,10 @@
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="11" />
     	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kernel" revision="eleven" />
         
-        <!-- Remove some projects >
-        <remove-project name="android_build" /-->
+        <!--Remove some projects -->
+        <remove-project name="android_build" />
 
-        <!-- Sync some projects >
+        <!--Sync some projects -->
         <project path="build/make" name="boedhack99/android_build" remote="dblenk9" revision="rippa" caf="platform/build" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -22,7 +22,7 @@
         <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
-        </project-->
+        </project>
 
         <!-- CAF Blobs -->
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="los" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-sdm845" />
