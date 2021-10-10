@@ -2,6 +2,27 @@
 <manifest>
 	<remote name="yogi" fetch="https://github.com/yograjsingh-cmd" />
 	<remote name="kernel" fetch="https://github.com/ayanm09" />
+          <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <remote  name="aex"
+           fetch="https://github.com/aex-tmp"
+           revision="refs/heads/12.x" />
+
+  <remote  name="aex-lab"
+           fetch="https://gitlab.com/AospExtended"
+           revision="refs/heads/12.x" />
+
+  <remote  name="aex-devices"
+           fetch="https://github.com/AospExtended-Devices" 
+           revision="refs/heads/12.x" />
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-18.1" />
 
     	<project path="device/asus/Z01R" name="device_asus_Z01R" remote="yogi" revision="aosp" />
     	<project path="vendor/asus" name="vendor_asus" remote="yogi" revision="lineage-18.1" />
@@ -11,5 +32,9 @@
         <remove-project name="frameworks_base" />
         
         <project path="frameworks/base" name="frameworks_base" remote="yogi" revision="11" /-->
+         
+        <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aex"  revision="12.x-caf-sdm845" />
+        <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aex"  revision="12.x-caf-sdm845" />
+        <project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="aex"  revision="12.x-caf-sdm845" />
 
 </manifest>
