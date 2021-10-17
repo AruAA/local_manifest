@@ -4,7 +4,7 @@
 	<remote name="kernel" fetch="https://github.com/kailashrs" />
 	<remote name="vendor" fetch="https://github.com/5z-devs" />	
 
-    	<project path="device/asus/Z01R" name="device_asus_Z01R" remote="aryan" revision="radiant" />
+    	<project path="device/asus/Z01R" name="temp-s" remote="aryan" revision="radiant" />
     	<project path="vendor/asus" name="proprietary_vendor_asus" remote="vendor" revision="lineage-18.1" />
     	<project path="kernel/asus/sdm845" name="kernel_z01r" remote="kernel" revision="eleven" />
         
