@@ -53,15 +53,6 @@
         <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
         <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
         <remove-project name="android_device_qcom_common" /-->
-	      
-	<project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="derp" >
-    	<!-- add guard for AOSP hardware/qcom dir > -->
-	    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-	    <!- for AOSP sdm845, we override os_pickup.mk ->
-	    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" /-->
-	    <!-- add guards for CAF repositories ->
-	    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
- 	 </project-->
 	
 	<!--Hals-->
         <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="derp" />
