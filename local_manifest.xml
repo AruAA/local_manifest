@@ -2,9 +2,6 @@
 <manifest>
 	<remote name="yogi" fetch="https://github.com/yograjsingh-cmd" />
 	<remote name="kernel" fetch="https://github.com/ayanm09" />
-        
-  <remote name="github"
-          fetch="https://github.com" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
@@ -31,20 +28,6 @@
   <remote name="dot"
           fetch="https://github.com/DotOS/"
           revision="refs/heads/dot11-caf-msm8996" />
-
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-11.0.0_r48"
-           remote="aosp"
-           sync-j="8"
-           sync-c="true" />
-	
-	<!-- AOSP -->
-  <remote name="aosp"
-          fetch="https://android.googlesource.com"
-          review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-11.0.0_r39"/>
 
   <!-- CAF -->
   <remote name="caf_system"
